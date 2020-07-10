@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "ryan2020"
+ryan = Ryan2020::Speak.new
+ryan.say_hi('Ryan')
